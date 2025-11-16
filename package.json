@@ -1,0 +1,31 @@
+{
+  "name": "inspecturl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "watch": "tsc --watch",
+    "dev:watch": "nodemon --watch src --exec tsx src/index.ts",
+    "test": "vitest",
+    "test:watch": "vitest watch"
+  },
+  "keywords": [],
+  "author": "banovic",
+  "license": "ISC",
+  "type": "module",
+  "description": "Tool to check health of URLs",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vitest": "^4.0.8"
+  }
+}
